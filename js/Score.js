@@ -10,8 +10,8 @@ class Score {
     }
 
     draw() {
-        this.ctx.fillStyle = "black";
+        this.ctx.fillStyle = "red";
         this.ctx.font = "30px Arial";
-        this.ctx.fillText(this.text + this.score, 30, 80);
+        this.ctx.fillText(this.text + this.score, 800, 65);
     }
 }
